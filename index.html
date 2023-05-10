@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;500&family=Shrikhand&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <main class="container">
+        <h1 class="heading"> &#127874; Is Your Birthday Lucky &#127874;</h1>
+
+        <div class="links"> 
+            <button class="link"><a href="https://github.com/Priyallohar/Is-Your-Birthday-Lucky">GitHub Code</a></button>
+            <button  class="link"><a href="https://priyalneogportfolio.netlify.app/">Portfolio</a></button>
+        </div>
+
+        <h2 class="info-note"> <strong>Note :-</strong> we are against storing data.</h2>
+
+        <div class="input-container">
+            <p>Date of birth:-</p>
+            <input type="date" id="birth-date" />
+
+            <p>Lucky number:-</p>
+            <input type="number" id="lucky-number" min="1"/>
+        </div>
+        <button class="check-btn">Check</button>
+
+        <div class="lucky-number-message">
+            <h4> &#x2728; Hurray!! &#x2728;</h4>
+            <p>Your Birthday is lucky</p>
+        </div>
+
+        <div class="unlucky-number-message">
+            <h4> &#x1F61E; Sad!!  &#x1F61E; </h4>
+            <p>This is not your lucky number</p>
+        </div>
+
+        
+        <div class="error-message">Please enter valid number</div>
+
+
+    </main>
+
+    
+    <footer class="socialmedia" id="socialmediacontact">
+        <span> <a href="https://github.com/Priyallohar"><ion-icon name="logo-github"></ion-icon></a></span>
+        <span> <a href="https://twitter.com/priyal_l"> <ion-icon name="logo-twitter"></ion-icon></a></span>
+        <span> <a href="https://www.linkedin.com/in/priyallohar/"><ion-icon name="logo-linkedin"></ion-icon></a></span>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

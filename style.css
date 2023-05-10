@@ -1,0 +1,175 @@
+* {
+    margin: 0;
+    padding: 0;
+
+
+}
+
+body {
+    background-color: var(--main-color);
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+:root {
+    --main-color: #ffb4a2;
+}
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.heading {
+    font-family: 'Shrikhand', cursive;
+    padding: 20px;
+
+}
+
+.info-note {
+    margin: 20px;
+    color: #aa6c5b;
+    padding: 10px 50px;
+    border-bottom: 3px solid black;
+    border-left: 1px solid black;
+    border-top: 1px solid black;
+    border-right: 3px solid black;
+    border-radius: 10px;
+}
+
+.links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.links button {
+    margin: 5px 40px;
+    padding: 5px 30px;
+    background-color: #FFC1C1;
+    font-weight: bold;
+    letter-spacing: 1px;
+    cursor: pointer;
+    border-bottom: 3px solid black;
+    border-left: 1px solid black;
+    border-top: 1px solid black;
+    border-right: 3px solid black;
+    border-radius: 10px;
+}
+
+.links button a {
+    font-size: 15px;
+    text-decoration: none;
+    color: black;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 600;
+
+}
+
+.link:hover {
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.2);
+}
+
+.input-container{
+    transform: translateY(-20px);
+}
+
+.input-container p {
+    margin: 30px auto 10px;
+    font-weight: 600;
+    text-align: center;
+    font-size: larger;
+}
+
+#birth-date,#lucky-number {
+    width:130px;
+    padding: 5px 40px;
+    border-bottom: 3px solid black;
+    border-left: 1px solid black;
+    border-top: 1px solid black;
+    border-right: 3px solid black;
+    border-radius: 10px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 600;
+    background-color: #f8d6d6;
+}
+
+#birth-date,#lucky-number:focus{
+    outline: none;
+}
+
+#birth-date:hover,#lucky-number:hover{
+    box-shadow: 2px 2px 2px 3px rgba(0, 0, 0, 0.2);
+}
+
+.check-btn{
+    margin: 20px auto;
+    padding: 5px 30px;
+    border-bottom: 3px solid black;
+    border-left: 1px solid black;
+    border-top: 1px solid black;
+    border-right: 3px solid black;
+    border-radius: 10px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 600;
+    background-color: #cc6d6d;
+    transform: translateY(-10px);
+}
+
+.check-btn:hover{
+    box-shadow: 2px 2px 2px 3px rgba(0, 0, 0, 0.2);
+}
+
+.error-message{
+    margin: 10px auto;
+  font-weight: 700;
+  font-size: 1.5rem;
+  color: red;
+}
+
+.unlucky-number-message,.lucky-number-message{
+    text-align: center;
+    margin: 10px auto;
+    font-weight: 700;
+    font-size: 2rem;
+    transform: translateY(-20px);
+}
+
+.lucky-number-message{
+    color:green;
+   
+}
+.unlucky-number-message{
+    color: #8b0f0f;
+}
+
+
+.socialmedia {
+    position: fixed;
+  bottom: 0;
+  left: 39%;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.socialmedia span {
+    display: grid;
+    justify-content: center;
+    margin: 0.5rem 2rem;
+    font-size: 30px;
+}
+
+.socialmedia a {
+    color: black;
+}
+
+.socialmedia a:hover {
+    color: white;
+}
