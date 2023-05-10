@@ -15,7 +15,7 @@ function valueCheck() {
     const birthDate = dateOfBirth.value;
     const luckyNumbervalue = luckyNumber.value;
 
-    if (birthDate === "" || luckyNumbervalue === "") {
+    if (birthDate === "" || luckyNumbervalue === ""||Number(luckyNumber)<0) {
         errorMessage.style.display = "block";
         luckymessage.style.display = "none";
         unluckymessage.style.display = "none";
