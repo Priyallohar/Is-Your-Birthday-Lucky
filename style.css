@@ -28,6 +28,13 @@ body {
 
 }
 
+@media screen and (max-width: 768px) {
+    .heading {
+      font-size: 1.5rem;
+      padding: 20px;
+    }
+  }
+
 .info-note {
     margin: 20px;
     color: #aa6c5b;
