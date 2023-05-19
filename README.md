@@ -10,7 +10,7 @@ This app will show what is your lucky number.
 
 # Here you can see app live:-
 
-### <a href="https://isyourbirthdaylucy.netlify.app/" target="_blank"> Profit and Loss </a>
+### <a href="https://isyourbirthdaylucy.netlify.app/" target="_blank"> Is your birthday lucky</a>
 ---
 
 ### Tech Used: ###
